@@ -140,16 +140,15 @@ What we learned was ... maximus metus id erat pharetra facilisis. Nullam ac urna
 The challenge that we were trying to convert the raw data files to processed and summarised files.
 
 The way we tried to solve this was:
-***1. Through Nextflow and Seqera on Milton HPC***
 
-    1. Submit tickets to ask for access to Milton HPC and Seqera
-    2. Upload raw data to `/vast/scratch/users/yourname/` + any subfolder you desire
-    3. Generate access token on Seqera and fill it in the Nextflow Tower Agent page
-    4. Select `Sarek_344` from Lanchpad and launch it
-    5. Fill in Run setup configuration and lanch the pipeline
+***1. Through Nextflow and Seqera on Milton HPC***
+1. Submit tickets to ask for access to Milton HPC and Seqera
+2. Upload raw data to `/vast/scratch/users/yourname/` + any subfolder you desire
+3. Generate access token on Seqera and fill it in the Nextflow Tower Agent page
+4. Select `Sarek_344` from Lanchpad and launch it
+5. Fill in Run setup configuration and lanch the pipeline
     
 ***2. Through Galaxy***
-
 Galaxy is a user-friendly interface where a lot of bioinformatics tools are available and ready to use.
 Use this link for more info: []
 
